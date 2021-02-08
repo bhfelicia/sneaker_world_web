@@ -13,6 +13,7 @@ app.get("/", async (req, res, next) => {
     </head>
     <body>
     <h1>Sneaker World</h1>
+    <h2>Brands:</h2>
     <ul>
     ${brands
       .map(
